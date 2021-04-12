@@ -1,8 +1,8 @@
 FROM google/cloud-sdk:latest
 
-MAINTAINER mail@jonrei.de
+LABEL maintainer="mail@jonrei.de"
 
-ENV TERRAFORM_VERSION=0.12.23
+ENV TERRAFORM_VERSION=0.12.30
 
 # Installing terraform
 RUN apt-get -y install unzip && \
