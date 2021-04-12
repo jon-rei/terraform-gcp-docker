@@ -1,4 +1,4 @@
-FROM google/cloud-sdk:latest
+FROM google/cloud-sdk:334.0.0
 
 LABEL maintainer="mail@jonrei.de"
 
